@@ -1,0 +1,486 @@
+/* General content view */
+/* Header */
+/* Logo */
+/* Navbar */
+/* Main */
+/* Footer */
+/* Adaptation */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+/* General content view  */
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.justify_content_space_evenly{
+    justify-content: space-evenly;
+}
+.justify_content_space_around{
+    justify-content: space-around;
+}
+.justify_content_space_beetwen{
+    justify-content: space-between;
+}
+.justify_content_center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.flex_column {
+    flex-direction: column;
+}
+.f-direction-row {
+    flex-direction: row;
+}
+.pointer {
+    cursor: pointer;
+}
+.pt-1, .p-1, .py-1{
+    padding-top: 1.2rem;
+}
+.pr-1, .p-1, .px-1{
+    padding-right: 1.2rem;
+}
+.pl-1, .p-1, .px-1{
+    padding-left: 1.2rem;
+}
+.pb-1, .p-1, .py-1{
+    padding-bottom: 1.2rem;
+}
+
+.pt-2, .p-2, .py-2{
+    padding-top: 2rem;
+}
+.pr-2, .p-2, .px-2{
+    padding-right: 2rem;
+}
+.pl-2, .p-2, .px-2{
+    padding-left: 2rem;
+}
+.pb-2, .p-2, .py-2{
+    padding-bottom: 2rem;}
+
+.py-25 {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.pt-3, .p-3, .py-3{
+    padding-top: 3rem;
+}
+.pr-3, .p-3, .px-3{
+    padding-right: 3rem;
+}
+.pl-3, .p-3, .px-3{
+    padding-left: 3rem;
+}
+.pb-3, .p-3, .py-3{
+    padding-bottom: 3rem;
+
+
+}
+.mt-3, .m-3, .my-3{
+    margin-top: 3rem;
+}
+.mr-3, .m-3, .mx-3{
+    margin-right: 3rem;
+}
+.ml-3, .m-3, .mx-3{
+    margin-left: 3rem;
+}
+.mb-3, .m-3, .my-3{
+    margin-bottom: 3rem;
+}
+
+.ml-5{
+    margin-left: 7rem;
+}
+
+
+.mleft10, .margin10, .mX10{
+    margin-left: 10rem;
+}
+.mright10, .margin10, .mX10{
+    margin-right: 10rem;
+}
+.mbottom10, .margin10, .mY10 {
+    margin-bottom: 10rem;
+}
+.mtop10, .margin10, .mY10 {
+    margin-top: 10rem;
+}
+.mleft20, .margin20, .mX20{
+    margin-left: 10rem;
+}
+.mright20, .margin20, .mX20{
+    margin-right: 10rem;
+}
+.mbottom20, .margin20, .mY20 {
+    margin-bottom: 10rem;
+}
+.mtop20, .margin20, .mY20 {
+    margin-top: 10rem;
+}
+.lightgrey {
+    color:#c7c1b6;
+}
+.grey {
+    color: #626262;
+}
+.fwnormal {
+    font-weight: normal;
+}
+.bg_col_gr {
+    background-color: #f0f0f0;
+}
+.sm {
+    font-size: 14px;
+}
+.border {
+    border: 0;
+}
+.upper{
+    text-transform: uppercase;
+}
+.ff_Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.width100 {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+  /* Header */
+
+header {
+    padding-right: 8rem;
+    padding-left: 10rem;
+}
+    /* Logo */
+.site-logo {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color:black;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 40%;
+    font-family: 'Inconsolata', monospace;
+}
+.navbar{
+    float: right;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.navbar a{
+    font-size: 1rem;
+    list-style: none;
+    text-transform: uppercase;
+    color: #626262;
+    list-style: none;
+    transition: all .3s ease;
+}
+.navbar a:hover, .navbar a:focus{
+    color: black;
+    text-decoration-line: underline;
+}
+
+
+/* Main */
+/* Sections */
+
+.heading{
+    font-weight: 400;
+    font-size: 1.5rem;    
+    transition: all 2 ease-in-out;
+}
+
+/* menu button */
+.menu-btn {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: rgb(146, 146, 146);
+    border-radius: 100%;
+    position: relative;
+}
+.menu-btn span, 
+.menu-btn span::before,
+.menu-btn span::after {
+    position: absolute;
+    top: 50%; 
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -10px;;
+    width: 20px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.menu-btn span::before,
+.menu-btn span::after {
+    content: "";
+}
+
+.menu-btn span::before {
+    transform: translateY(8px)
+}
+.menu-btn span::after{
+    transform: translateY(-8px)
+}
+
+.image1{
+    width: 80%;
+    height: 80%;
+    transition: all .5s ease;
+}
+.image2, .image3, .image4, .image5, .image6, .image7 {
+   width: 100%;
+   height: auto;
+   flex-shrink: 0;
+   transition: all .5s ease;
+}
+.image1:hover, .image1:focus,
+.image2:hover, .image3:hover, 
+.image4:hover, .image5:hover, 
+.image6:hover, .image7:hover
+.image2:focus, .image3:focus, 
+.image4:focus, .image5:focus, 
+.image6:focus, .image7:focus{
+    opacity: .7;
+}
+.sec_grey {
+    width: 100%;
+    height: 250px;
+    background-color:#f0f0f0;
+}
+
+.sec_grey .sign {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.input {
+    color: #aeaeae;
+    font-weight: normal;
+    width: 200px;
+} 
+
+.form {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.button {
+    width: 15rem;
+    color: #626262;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border: 1px solid #626262;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    transition: all .5 linear;
+}
+.button:hover, .btn:hover, .button:focus, .btn:focus  {
+    background: rgba(236,234,247,1);
+    background: -moz-linear-gradient(left, rgba(236,234,247,1) 0%, rgba(216,208,239,1) 29%, rgba(206,199,236,1) 59%, rgba(188,187,230,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(236,234,247,1)), color-stop(29%, rgba(216,208,239,1)), color-stop(59%, rgba(206,199,236,1)), color-stop(100%, rgba(188,187,230,1)));
+    background: -webkit-linear-gradient(left, rgba(236,234,247,1) 0%, rgba(216,208,239,1) 29%, rgba(206,199,236,1) 59%, rgba(188,187,230,1) 100%);
+    background: -o-linear-gradient(left, rgba(236,234,247,1) 0%, rgba(216,208,239,1) 29%, rgba(206,199,236,1) 59%, rgba(188,187,230,1) 100%);
+    background: -ms-linear-gradient(left, rgba(236,234,247,1) 0%, rgba(216,208,239,1) 29%, rgba(206,199,236,1) 59%, rgba(188,187,230,1) 100%);
+    background: linear-gradient(to right, rgba(236,234,247,1) 0%, rgba(216,208,239,1) 29%, rgba(206,199,236,1) 59%, rgba(188,187,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eceaf7', endColorstr='#bcbbe6', GradientType=1 );
+    color: #333333;
+    border: 2px solid #626262;
+}
+
+/* Button and modal window*/
+input[type="checkbox"]{
+    opacity: 0;
+}
+
+#modalcontactform:checked + .modal-window{
+opacity: 1;
+visibility: visible;
+}
+.modal-window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba{0,0,0, 0.5};
+    padding-top: 5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+.modal-window form{
+    max-width: 30%;
+    padding: 2.5rem;
+    margin: 0 auto;
+    background-color: rgb(172, 172, 172);
+    border-radius: 5px;
+}
+.modal-window h3{
+    text-transform: uppercase;
+    font-size: 1.3rem; 
+}
+/* cross */
+.modal-window .cross {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.modal-window .cross::before,
+.modal-window .cross::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: rgb(2, 2, 2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.modal-window .cross::before{
+    transform: translate(-50%, -50%) rotate(-45deg)
+}
+.modal-window .cross::after{
+    transform: translate(-50%, -50%) rotate(45deg)
+}
+.modal-window form > div{
+    padding-bottom: 1.5rem;
+}
+.modal-window label{
+    text-transform: uppercase;  
+    padding-bottom: 2px;
+    font-size: 1.1rem;
+}
+.modal-window input,
+.modal-window textarea{
+    font-size: 1rem;
+    padding: .25rem;
+}
+.modal-window textarea {
+    resize: none;
+}
+.btn{
+    padding: 1rem;
+    text-transform: uppercase;  
+    border: 1px solid #626262;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    transition: all .5 linear;
+}
+#btn {
+    margin: 2rem;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    height: 5rem;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+
+
+
+/* Adaptation */
+@media screen and (min-width: 959px){
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width: 959px){
+    header {
+        padding-right: 5rem;
+        padding-left: 6rem;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        flex-basis: 100%;
+    }
+    .navbar a {
+        padding: 1rem;
+    }
+    .modal-window form{
+        max-width: 90%;}
+}    
+
+@media screen and (max-width: 768px){
+    .maincontent {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    header {
+        padding-right: 3rem;
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .site-logo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar a {
+        margin: 0;
+        padding: 3px 2px 2px 2px;
+    }
+    footer {
+        font-size: normal;
+    }
+    footer p {
+       display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar {
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    footer i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
